@@ -1,0 +1,623 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri Aug 19 22:24:44 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# makefile (from 'Makefile', line 65)
+.SHELLFLAGS = -ec
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+NVM_INC = /home/vinay/.nvm/versions/node/v14.19.1/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/vinay/golib/src/github.com/vinay03/podset-operator
+# makefile (from 'Makefile', line 64)
+SHELL = /usr/bin/env bash -o pipefail
+# environment
+SNAP_DATA = /var/snap/code/105
+# environment
+VTE_VERSION = 6003
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:53092
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 153)
+LOCALBIN = $(shell pwd)/bin
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# makefile (from 'Makefile', line 198)
+OPM = ./bin/opm
+# environment
+USERNAME = vinay
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 6)
+VERSION = 0.0.1
+# environment
+MANAGERPID = 2737
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/vinay
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/go/bin:/home/vinay/.nvm/versions/node/v14.19.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vinay/golib/bin
+# makefile (from 'Makefile', line 166)
+KUSTOMIZE_INSTALL_SCRIPT = "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/VINAY-UBUNTU:@/tmp/.ICE-unix/2950,unix/VINAY-UBUNTU:/tmp/.ICE-unix/2950
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/vinay/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/105
+# environment
+GOPATH = /home/vinay/golib
+# environment
+NVM_BIN = /home/vinay/.nvm/versions/node/v14.19.1/bin
+# environment
+SNAP_VERSION = e4503b30
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = b8b83cf447c7424e9adce6194a8b17ae
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 159)
+CONTROLLER_GEN = $(LOCALBIN)/controller-gen
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# makefile (from 'Makefile', line 219)
+CATALOG_IMG = $(IMAGE_TAG_BASE)-catalog:v$(VERSION)
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 56)
+GOBIN = $(shell go env GOPATH)/bin
+# environment
+DISPLAY = :1
+# makefile (from 'Makefile', line 216)
+BUNDLE_IMGS = $(BUNDLE_IMG)
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/vinay/golib/src/github.com/vinay03/podset-operator
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2915
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+GOMODCACHE = /home/vinay/golib/pkg/mod
+# environment
+HOME = /home/vinay
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/vinay/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = vinay
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = HgtSIZLHirc6uNHvgf0u6mUThDOYWtwjYAtBjsG5zVP1uUXehVjS
+# environment
+NVM_CD_FLAGS = 
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/vinay/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/vinay
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/vinay/snap/code/105
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 39)
+BUNDLE_GEN_FLAGS = -q --overwrite --version $(VERSION) $(BUNDLE_METADATA_OPTS)
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = vinay
+# environment
+SNAP_REVISION = 105
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+GOROOT = /usr/local/go
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 44)
+USE_IMAGE_DIGESTS = false
+# makefile (from 'Makefile', line 50)
+IMG = controller:latest
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 158)
+KUSTOMIZE = $(LOCALBIN)/kustomize
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_IN:en
+# makefile (from 'Makefile', line 25)
+BUNDLE_METADATA_OPTS = $(BUNDLE_CHANNELS) $(BUNDLE_DEFAULT_CHANNEL)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-120300a0-1.70.2-main.sock
+# makefile (from 'Makefile', line 164)
+CONTROLLER_TOOLS_VERSION = v0.9.0
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/vinay/.nvm
+# makefile (from 'Makefile', line 163)
+KUSTOMIZE_VERSION = v3.8.7
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 160)
+ENVTEST = $(LOCALBIN)/setup-envtest
+# environment
+QT_ACCESSIBILITY = 1
+# 'override' directive
+.SHELLSTATUS := 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = HgtSIZLHirc6uNHvgf0u6mUThDOYWtwjYAtBjsG5zVP1uUXehVjS
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_NAME = code
+# makefile (from 'Makefile', line 36)
+BUNDLE_IMG = $(IMAGE_TAG_BASE)-bundle:v$(VERSION)
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/503ea2a1_40f5_4810_987d_1cc0276407e2
+# automatic
+^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.121
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# makefile (from 'Makefile', line 32)
+IMAGE_TAG_BASE = example.com/podset-operator
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 130)
+ignore-not-found = false
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# makefile (from 'Makefile', line 52)
+ENVTEST_K8S_VERSION = 1.24.1
+ 
+# environment
+VSCODE_PID = 7539
+# variable set hash-table stats:
+# Load=146/1024=14%, Rehash=0, Collisions=19/266=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66310, inode 3811764): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+envtest: /home/vinay/golib/src/github.com/vinay03/podset-operator/bin/setup-envtest
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+catalog-push:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 236):
+	$(MAKE) docker-push IMG=$(CATALOG_IMG)
+
+docker-build: test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 121):
+	docker build -t ${IMG} .
+
+.PHONY: all help manifests generate fmt vet test build run docker-build docker-push install uninstall deploy undeploy kustomize controller-gen envtest bundle bundle-build bundle-push opm catalog-build catalog-push
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+opm:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 202):
+	@{ \
+	set -e ;\
+	mkdir -p $(dir $(OPM)) ;\
+	OS=$(shell go env GOOS) && ARCH=$(shell go env GOARCH) && \
+	curl -sSLo $(OPM) https://github.com/operator-framework/operator-registry/releases/download/v1.23.0/$${OS}-$${ARCH}-opm ;\
+	chmod +x $(OPM) ;\
+	}
+
+/home/vinay/golib/src/github.com/vinay03/podset-operator/bin:
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-16 12:58:34.500198035
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 155):
+	mkdir -p $(LOCALBIN)
+
+bundle: manifests kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 184):
+	operator-sdk generate kustomize manifests -q
+	cd config/manager && $(KUSTOMIZE) edit set image controller=$(IMG)
+	$(KUSTOMIZE) build config/manifests | operator-sdk generate bundle $(BUNDLE_GEN_FLAGS)
+	operator-sdk bundle validate ./bundle
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+uninstall: manifests kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 139):
+	$(KUSTOMIZE) build config/crd | kubectl delete --ignore-not-found=$(ignore-not-found) -f -
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-16 12:58:13.856475621
+#  File has been updated.
+#  Successfully updated.
+
+test: manifests generate fmt vet envtest
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 107):
+	KUBEBUILDER_ASSETS="$(shell $(ENVTEST) use $(ENVTEST_K8S_VERSION) -p path)" go test ./... -coverprofile cover.out
+
+bundle-push:
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 195):
+	$(MAKE) docker-push IMG=$(BUNDLE_IMG)
+
+catalog-build: opm
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 231):
+	$(OPM) index add --container-tool docker --mode semver --tag $(CATALOG_IMG) --bundles $(BUNDLE_IMGS) $(FROM_INDEX_OPT)
+
+build: generate fmt vet
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+#  recipe to execute (from 'Makefile', line 113):
+	go build -o bin/manager main.go
+
+vet:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 103):
+	go vet ./...
+
+/home/vinay/golib/src/github.com/vinay03/podset-operator/bin/controller-gen: /home/vinay/golib/src/github.com/vinay03/podset-operator/bin
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-16 12:58:34.512197873
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 175):
+	GOBIN=$(LOCALBIN) go install sigs.k8s.io/controller-tools/cmd/controller-gen@$(CONTROLLER_TOOLS_VERSION)
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 85):
+	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n"} /^[a-zA-Z_0-9-]+:.*?##/ { printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
+
+kustomize: /home/vinay/golib/src/github.com/vinay03/podset-operator/bin/kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# 'override' directive
+generate: .SHELLSTATUS := 0
+generate: controller-gen
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := generate
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := controller-gen
+# automatic
+# | := 
+# automatic
+# < := controller-gen
+# automatic
+# ^ := controller-gen
+# automatic
+# ? := controller-gen
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=4/17=24%
+#  recipe to execute (from 'Makefile', line 95):
+	$(CONTROLLER_GEN) object:headerFile="hack/boilerplate.go.txt" paths="./..."
+
+undeploy:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 148):
+	$(KUSTOMIZE) build config/default | kubectl delete --ignore-not-found=$(ignore-not-found) -f -
+
+ 
+manifests: controller-gen
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 91):
+	$(CONTROLLER_GEN) rbac:roleName=manager-role crd webhook paths="./..." output:crd:artifacts:config=config/crd/bases
+
+/home/vinay/golib/src/github.com/vinay03/podset-operator/bin/kustomize: /home/vinay/golib/src/github.com/vinay03/podset-operator/bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 170):
+	curl -s $(KUSTOMIZE_INSTALL_SCRIPT) | bash -s -- $(subst v,,$(KUSTOMIZE_VERSION)) $(LOCALBIN)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: manifests generate fmt vet
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 117):
+	go run ./main.go
+
+bundle-build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 191):
+	docker build -f bundle.Dockerfile -t $(BUNDLE_IMG) .
+
+fmt:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 99):
+	go fmt ./...
+
+deploy: manifests kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 143):
+	cd config/manager && $(KUSTOMIZE) edit set image controller=${IMG}
+	$(KUSTOMIZE) build config/default | kubectl apply -f -
+
+/home/vinay/golib/src/github.com/vinay03/podset-operator/bin/setup-envtest: /home/vinay/golib/src/github.com/vinay03/podset-operator/bin
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 180):
+	GOBIN=$(LOCALBIN) go install sigs.k8s.io/controller-runtime/tools/setup-envtest@latest
+
+controller-gen: /home/vinay/golib/src/github.com/vinay03/podset-operator/bin/controller-gen
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+docker-push:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 125):
+	docker push ${IMG}
+
+install: manifests kustomize
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 135):
+	$(KUSTOMIZE) build config/crd | kubectl apply -f -
+
+# files hash-table stats:
+# Load=32/1024=3%, Rehash=0, Collisions=6/148=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 51 / storage = 690 B / avg = 13 B
+# current buf: size = 8162 B / used = 690 B / count = 51 / avg = 13 B
+
+# strcache performance: lookups = 187 / hit rate = 72%
+# hash-table stats:
+ 
+# Load=51/8192=1%, Rehash=0, Collisions=4/187=2%
+# Finished Make data base on Fri Aug 19 22:24:44 2022
+
+ 
